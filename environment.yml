@@ -1,0 +1,17 @@
+name: object_detection
+dependencies:
+  - python=3.8
+  - numpy
+  - pandas
+  - jupyterlab
+  - torch==1.13.0
+  - torchvision==0.14.0
+  - tensorboard
+  - pip
+  - tqdm
+  - pip:
+      - opencv-python
+      - matplotlib
+      - seaborn
+      - pycocotools
+      - albumentations
