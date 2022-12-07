@@ -68,31 +68,47 @@ detects some classes with high confidence while obtaining low confidence on othe
 # Step 4 - Model Testing (2 hours)
 
 ## Good samples
+
 ![Sample 1](./assets/sample_good_1.png)
+<p>
 The pilot is correctly detected with a high confidence despite glare
 and occlusion from the helmet.
+</p>
+
 ![Sample 2](./assets/sample_good_2.png)
-All the ships are detected even the distant silhouette in the background!
+<p> All the ships are detected even the distant silhouette in the background!</p>
+
 ![Sample 3](./assets/sample_good_3.png)
+<p>
 All the people in the room are detected with a decent confidence score. Once again, the
 model shows ability to detect occluded objects - man behind the monitor.
+</p>
 
 ## Bad samples
 ![Sample 1](./assets/sample_bad_1.png)
+<p>
 The person is detected but the objects in the background are incorrectly classified as 
 ships.
+</p>
+
 ![Sample 2](./assets/sample_bad_2.png)
+<p>
 The aircraft is not classified. My model struggled detecting this class as the training
 set is biased towards people.
+</p>
+
 ![Sample 3](./assets/sample_bad_3.png)
+<p>
 The helicopter is detected but classified as a ship.
-I can understand why it's the case, since the outline of the helicopter
-does resemble a navy ship.
+I can understand why it's the case, since the outline of the helicopter does resemble a navy ship.
+</p>
 
 ![Sample 4](./assets/sample_bad_4.png)
+<p>
 This last sample highlights the models' bias towards the person class.
 The person is detected with a very high confidence, but the helicopter
 in the background is not detected at all.
+</p>
 
 Annotated test video is located at `data/test/NATO Response Force exercise goes live_annot.mp4`
  
