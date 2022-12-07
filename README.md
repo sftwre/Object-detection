@@ -1,6 +1,7 @@
 # Introduction
 This repository trains a pre-trained Faster RCNN model, with a Resnet-50 backbone,
 on an annotated dataset with three classes (aircraft, person, ship). 
+![](./assets/final_annotated_video.gif)
 
 # Project setup
 
