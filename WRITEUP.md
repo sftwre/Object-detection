@@ -105,7 +105,7 @@ I can understand why it's the case, since the outline of the helicopter does res
 
 ![Sample 4](./assets/sample_bad_4.png)
 <p>
-This last sample highlights the models' bias towards the person class.
+This last sample highlights the model's bias towards the person class.
 The person is detected with a very high confidence, but the helicopter
 in the background is not detected at all.
 </p>
